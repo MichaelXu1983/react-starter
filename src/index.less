@@ -1,0 +1,262 @@
+@import '~@csstools/normalize.css';
+/*!
+ * 
+ * global v1.0.0
+ * 
+ * Copyright 2019-present, DXF, Inc.
+ * All rights reserved.
+ *       
+ */
+/* Document
+   ========================================================================== */
+* {
+  -webkit-touch-callout: none; /*系统默认菜单被禁用*/
+  -webkit-user-select: none; /*禁止复制*/
+}
+input {
+  -webkit-user-select: auto; /*允许input输入*/
+}
+html {
+  width: 100%;
+  min-height: 100%;
+  background-color: #f7f7f9;
+  overflow: hidden;
+}
+body {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: PingFangSC-Regular; // IOS webview 苹方写法，默认PingFang-SC-Medium
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-overflow-scrolling: touch;
+  background-color: transparent;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* antd-mobile v2.2.11 user-defined
+   ========================================================================== */
+/**
+ * Button
+ */
+.am-button-primary {
+  background-image: linear-gradient(-135deg, #69409e 0%, #dd84a5 100%);
+  letter-spacing: 1.71px;
+}
+.am-button-primary.am-button-disabled {
+  color: #fff;
+  background-image: linear-gradient(90deg, #a9a8a8 0%, #171717 100%);
+}
+.am-button-ghost {
+  letter-spacing: 1.71px;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+  html:not([data-scale]) .am-button::before {
+    border: 1px solid transparent !important;
+  }
+  html:not([data-scale]) .am-button-ghost {
+    border: 1px solid #aa66a2 !important;
+  }
+  html:not([data-scale]) .am-button-ghost::before {
+    border: none !important;
+  }
+}
+/* antd-mobile v2.2.11 user-defined
+   ========================================================================== */
+/**
+ * radio
+ */
+.am-radio {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  width: 21px;
+  height: 21px;
+}
+
+.am-radio-inner {
+  position: absolute;
+  right: 0;
+  width: 21px !important;
+  height: 21px !important;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  box-sizing: border-box;
+}
+
+.am-radio-inner:after {
+  position: absolute;
+  display: none;
+  top: 2px !important;
+  right: 7px !important;
+  z-index: 999;
+  width: 6px !important;
+  height: 12px !important;
+  border-style: solid;
+  border-width: 0 0.1px 0.1px 0;
+  content: ' ';
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.am-radio-input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  border: 0 none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.am-radio.am-radio-checked .am-radio-inner {
+  border-color: #f8aeb8;
+  background: #f64272;
+}
+
+.am-radio.am-radio-checked .am-radio-inner:after {
+  display: block;
+  border-color: #fff !important;
+  border-width: 0 1px 1px 0 !important;
+}
+
+.am-radio.am-radio-disabled {
+  opacity: 0.3;
+}
+
+.am-radio.am-radio-disabled.am-radio-checked .am-radio-inner {
+  border-color: #888;
+  background: none;
+}
+
+.am-radio.am-radio-disabled.am-radio-checked .am-radio-inner:after {
+  border-color: #888;
+}
+
+.am-list .am-list-item.am-radio-item .am-list-thumb {
+  width: 21px;
+  height: 21px;
+}
+
+.am-list .am-list-item.am-radio-item .am-list-thumb .am-radio {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.am-list .am-list-item.am-radio-item .am-list-thumb .am-radio-inner {
+  left: 3px;
+  top: 2.4px;
+}
+
+.am-list .am-list-item.am-radio-item.am-radio-item-disabled .am-list-content {
+  color: #bbb;
+}
+.am-list .am-list-item.am-radio-item .am-list-line .am-list-extra .am-radio {
+  top: 30px !important;
+}
+
+/* antd-mobile v2.2.11 user-defined
+   ========================================================================== */
+/**
+ * Checkbox
+ */
+.am-checkbox.am-checkbox-checked .am-checkbox-inner {
+  border-color: #f8aeb8 !important;
+  background: #f64272 !important;
+}
+.am-checkbox.am-checkbox-checked .am-checkbox-inner:after {
+  border-color: #fff !important;
+}
+.am-checkbox-agree .am-checkbox-agree-label {
+  margin-top: 3px !important;
+}
+.am-checkbox-agree {
+  margin-left: 0;
+  .am-checkbox-agree-label {
+    font-size: 14px;
+    font-weight: 300;
+    color: #7d4c9f !important;
+    a {
+      color: #7d4c9f !important;
+    }
+  }
+  .am-checkbox-inner {
+    top: 9px;
+  }
+}
+/* antd-mobile v2.2.11 user-defined
+   ========================================================================== */
+/**
+ * ListView
+ */
+.am-list-view-scrollview,
+.am-pull-to-refresh,
+.am-pull-to-refresh-content-wrapper,
+.am-pull-to-refresh-content {
+  width: 100%;
+  min-height: 100%;
+  border: none !important;
+}
+.am-list-item .am-list-line .am-list-arrow {
+  width: 10px !important;
+  height: 10px !important;
+  background-image: url('assets/Other/right-arrow.svg');
+}
+
+.am-toast-notice-content .am-toast-text {
+  background: rgba(255, 255, 255, 0.75) !important;
+  box-shadow: 1px 1px 5px #00000020 !important;
+  color: #777 !important;
+}
+.am-list-item .am-list-thumb:first-child {
+  margin-right: 10px;
+}
+.am-list-footer {
+  padding: 20px 0;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+  html:not([data-scale]) .am-list-body::after {
+    background-color: transparent !important;
+  }
+  html:not([data-scale]) .am-list-body::before {
+    background-color: transparent !important;
+  }
+  html:not([data-scale])
+    .am-list-body
+    div:not(:last-child)
+    .am-list-line::after {
+    background-color: #ebebeb;
+    transform: scaleY(0.4) !important;
+  }
+}
+
+/* antd-mobile v2.2.11 user-defined
+   ========================================================================== */
+/**
+ * other
+ */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+  html:not([data-scale]) .am-result::after {
+    background-color: transparent !important;
+  }
+}

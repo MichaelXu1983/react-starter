@@ -1,0 +1,39 @@
+<svg width="375px" height="116px" viewBox="0 0 375 116" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <path d="M0,0 L375,0 L375,77 C312.839571,102.982455 250.339571,115.973683 187.5,115.973683 C124.660429,115.973683 62.1604288,102.982455 0,77 L0,0 Z" id="path-1"></path>
+        <ellipse id="path-3" cx="281.5" cy="-16.5" rx="187.5" ry="189.5"></ellipse>
+        <filter x="-2.0%" y="-2.0%" width="104.0%" height="104.0%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="7" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0670855978 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <circle id="path-5" cx="318" cy="36" r="148"></circle>
+        <filter x="-2.5%" y="-2.5%" width="105.1%" height="105.1%" filterUnits="objectBoundingBox" id="filter-6">
+            <feGaussianBlur stdDeviation="7" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.254161005 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="app" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="我的" transform="translate(0.000000, -63.000000)">
+            <g id="Rectangle-2" transform="translate(0.000000, 63.000000)">
+                <g id="Oval-3-Copy-+-Oval-3-Mask">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#C274A2" xlink:href="#path-1"></use>
+                    <g id="Oval-3-Copy" opacity="0.477921196" mask="url(#mask-2)">
+                        <use fill="#9F62A0" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                    </g>
+                    <g id="Oval-3" opacity="0.420799366" mask="url(#mask-2)">
+                        <use fill="#6C439C" fill-rule="evenodd" xlink:href="#path-5"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

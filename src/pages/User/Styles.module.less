@@ -1,0 +1,79 @@
+.user-form-list {
+  .title {
+    padding: 20px 30px 7px 24px;
+    color: #000;
+    font-size: 38px;
+    background-color: #fff;
+  }
+  .link {
+    color: #7d4c9f;
+  }
+  .show-pass-style {
+    position: absolute;
+    bottom: 4px;
+    right: 18px;
+    z-index: 99;
+    display: block;
+    width: 40px;
+    height: 23px;
+    line-height: 24px;
+    font-size: 0;
+    text-align: center;
+    background-image: url('../../assets/User/close-eyes.svg');
+    background-size: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .show-pass-style.hide {
+    background-image: url('../../assets/User/open-eyes.svg');
+  }
+
+  .tips {
+    padding:0 30px ;
+    p{
+      font-size: 13px;
+      color: #c7c7c7;
+      line-height: 22px;
+    }
+  }
+  :global {
+    .am-list-item.am-input-item {
+      position: relative;
+      height: 70px;
+      padding: 11px 28px;
+    }
+    .am-list-item .am-input-label {
+      position: absolute;
+      top: 10px;
+      color: #000;
+      font-size: 16px;
+      font-weight: 300;
+    }
+    .am-list-item .am-input-control {
+      position: absolute;
+      bottom: 4px;
+      z-index: 59;
+      width: 100%;
+      > input {
+        font-size: 16px;
+        text-align: left;
+        letter-spacing: 1px;
+      }
+    }
+    .am-list-item .am-input-clear {
+      position: absolute;
+      bottom: 6px;
+      right: 0;
+      z-index: 69;
+      width: 20px !important;
+      height: 20px !important;
+      background-color: transparent !important;
+      background-image: url('../../assets/Other/close.svg') !important;
+      background-size: contain;
+      background-position: center !important;
+    }
+    .am-list-item .am-input-clear-active {
+      background-color: #7d4c9f;
+    }
+  }
+}

@@ -1,0 +1,72 @@
+.help-container {
+  .am-grid
+    .am-flexbox
+    .am-flexbox-item
+    .am-grid-item-content
+    .am-grid-item-inner-content
+    .am-grid-text {
+    font-size: 13px;
+  }
+  .item-header {
+    color: #666;
+    font-weight: bold;
+    font-size: 13px;
+    margin: 10px;
+  }
+  .group {
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 0;
+    background-color: white;
+    height: auto;
+  }
+  .title {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 80px;
+    line-height: 180px;
+    background-position: center;
+    background-size: 40px;
+    background-repeat: no-repeat;
+    color: #4a4a4a;
+    font-size: 12px;
+    text-align: center;
+    border-right: 1px solid #f1f1f1;
+  }
+  .group-container {
+    > .group:nth-child(1) {
+      .title {
+        background-image: url('../../assets/Account/borrowing.png');
+      }
+    }
+    > .group:nth-child(2) {
+      .title {
+        background-image: url('../../assets/Account/coin.png');
+      }
+    }
+    > .group:nth-child(3) {
+      .title {
+        background-image: url('../../assets/Account/document.png');
+      }
+    }
+    > .group:nth-child(4) {
+      .title {
+        background-image: url('../../assets/Account/document.png');
+      }
+    }
+  }
+  .item {
+    display: block;
+    border-bottom: 1px solid #f1f1f1;
+    height: auto;
+    line-height: 36px;
+    margin-left: 80px;
+    padding-left: 20px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #666;
+    font-size: 13px;
+  }
+}

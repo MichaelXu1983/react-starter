@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="15px" viewBox="0 0 14 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>对勾</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="101.999998%" y2="100.999999%" id="linearGradient-1">
+            <stop stop-color="#3023AE" offset="0%"></stop>
+            <stop stop-color="#C86DD7" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页-审核中" transform="translate(-45.000000, -245.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <g id="信用卡" transform="translate(17.000000, 71.000000)">
+                <g id="小字" transform="translate(28.000000, 172.414141)">
+                    <g id="低息">
+                        <g id="对勾" transform="translate(0.000000, 2.040404)">
+                            <path d="M7,0 C3.13400675,-2.41506112e-16 4.73447626e-16,3.19732002 0,7.14141414 C-4.73447626e-16,11.0855083 3.13400675,14.2828283 7,14.2828283 C10.8659932,14.2828283 14,11.0855083 14,7.14141414 C13.9956164,3.19917395 10.864176,0.00447219826 7,0 Z M7,13.7959137 C3.3975972,13.7959137 0.477272729,10.8165928 0.477272729,7.14141414 C0.477272729,3.46623553 3.3975972,0.486914602 7,0.486914602 C10.6024028,0.486914602 13.5227273,3.46623553 13.5227273,7.14141414 C13.5187817,10.8149241 10.6007672,13.7918884 7,13.7959137 Z" id="Shape"></path>
+                            <path d="M11.00365,3.57070707 C8.66285,5.11401383 6.965,7.06280066 6.19885,8.03926285 L4.32775,6.46285567 L3.5,7.17865211 L6.73015,10.7121212 C7.28455,9.1812271 9.04785,6.18977726 11.2,4.06307572 L11.00365,3.57070707 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

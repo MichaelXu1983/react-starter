@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>取消icon@2x</title>
+    <desc>Created with Sketch.</desc>
+    <g id="app" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="" transform="translate(-303.000000, -200.000000)" fill="#444444">
+            <path d="M312.000101,208.202065 L320.202065,200.00218 L321,200.800115 L312.787316,208.989479 L320.99782,217.202065 L320.199885,218 L311.998897,209.775659 L303.77566,217.975545 L303,217.199885 L311.213721,208.988246 L303.024455,200.77566 L303.800115,200 L312.000101,208.202065 Z" id="取消icon"></path>
+        </g>
+    </g>
+</svg>
